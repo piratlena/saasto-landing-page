@@ -2,27 +2,27 @@
   <a
     v-if="link"
     :href="to"
-    class="flex items-center justify-center rounded transition-colors duration-200 ease-in-out"
+    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out"
     :class="[
       type === 'primary' ? 'bg-primary text-white hover:bg-orange-1' : '',
       type === 'secondary'
         ? 'hover border border-dark-1 bg-transparent text-dark-1 hover:border-primary  hover:text-primary'
         : '',
       size === 'small' ? 'h-8 px-4 text-xs' : '',
-      size === 'large' ? 'h-9 px-10 text-base' : '',
+      size === 'large' ? 'h-11 px-10 text-base' : '',
     ]"
     >{{ text }}</a
   >
   <button
     v-else
-    class="flex items-center justify-center rounded transition-colors duration-200 ease-in-out"
+    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out"
     :class="[
-      type === 'primary' ? 'bg-primary text-white hover:dark-1' : '',
+      type === 'primary' ? 'bg-primary text-white hover:bg-orange-1' : '',
       type === 'secondary'
-        ? 'hover border border-dark-1 bg-transparent text-dark-1 hover:border-primary hover:bg-primary hover:dark-1'
+        ? 'hover border border-dark-1 bg-transparent text-dark-1 hover:border-primary  hover:text-primary'
         : '',
       size === 'small' ? 'h-8 px-4 text-xs' : '',
-      size === 'large' ? 'h-9 px-10 text-base' : '',
+      size === 'large' ? 'h-11 px-10 text-base' : '',
     ]"
   >
     {{ text }}
