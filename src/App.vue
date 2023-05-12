@@ -3,6 +3,7 @@
     <TheHeader />
     <TheHero />
     <CounterDisplay />
+    <FeaturesSection />
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import TheHeader from './components/TheHeader.vue';
 import TheHero from './components/TheHero.vue';
 import CounterDisplay from './components/CounterDisplay.vue';
+import FeaturesSection from './components/FeaturesSection.vue';
 </script>
 
 <style scoped></style>
