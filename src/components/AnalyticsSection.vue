@@ -1,6 +1,6 @@
 <template>
   <section
-    class="h-[1097px] bg-no-repeat bg-no-repeat lg:bg-[url(@/assets/analystics-section/background.png)]"
+    class="h-[950px] bg-no-repeat bg-no-repeat lg:bg-[url(@/assets/analystics-section/background.png)]"
   >
     <UIContainer>
       <div class="flex flex-row justify-between">

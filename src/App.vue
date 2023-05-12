@@ -5,6 +5,7 @@
     <CounterDisplay />
     <FeaturesSection />
     <AnalyticsSection />
+    <TrackerWorkSection />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import TheHero from './components/TheHero.vue';
 import CounterDisplay from './components/CounterDisplay.vue';
 import FeaturesSection from './components/FeaturesSection.vue';
 import AnalyticsSection from './components/AnalyticsSection.vue';
+import TrackerWorkSection from './components/TrackerWorkSection.vue';
 </script>
 
 <style scoped></style>
