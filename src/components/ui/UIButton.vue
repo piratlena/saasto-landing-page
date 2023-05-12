@@ -2,7 +2,7 @@
   <a
     v-if="link"
     :href="to"
-    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out"
+    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out cursor-pointer"
     :class="[
       type === 'primary' ? 'bg-primary text-white hover:bg-orange-1' : '',
       type === 'secondary'
@@ -15,7 +15,7 @@
   >
   <button
     v-else
-    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out"
+    class="flex items-center justify-center rounded-full transition-colors duration-200 ease-in-out cursor-pointer"
     :class="[
       type === 'primary' ? 'bg-primary text-white hover:bg-orange-1' : '',
       type === 'secondary'
