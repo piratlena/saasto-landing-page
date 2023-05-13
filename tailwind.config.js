@@ -8,6 +8,7 @@ module.exports = {
         'background-1': '#FFF8F2',
         'background-2': '#F3FDFE',
         blue: '#70D0DC',
+        'dark-blue': '#221ECA',
         purple: '#7562E0',
         'orange-1': '#FA865F',
         'dark-1': '#40201E',
