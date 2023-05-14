@@ -7,6 +7,7 @@
     <AnalyticsSection />
     <TrackerWorkSection />
     <PriceSection />
+    <PartnersSection />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import FeaturesSection from './components/FeaturesSection.vue';
 import AnalyticsSection from './components/AnalyticsSection.vue';
 import TrackerWorkSection from './components/TrackerWorkSection.vue';
 import PriceSection from './components/PriceSection.vue';
+import PartnersSection from './components/PartnersSection.vue';
 </script>
 
 <style scoped></style>
