@@ -10,48 +10,59 @@
       <div class="w-[297px] flex flex-row justify-between m-auto">
         <div class="text-2xl font-medium">Monthly</div>
         <label class="theme-switch">
-          <input type="checkbox" />
+          <input type="checkbox" @click="setActiveMode" />
           <div class="slider round"></div>
         </label>
         <div class="text-2xl font-medium">Yearly</div>
       </div>
 
       <div class="w-[1000px] flex flex-row justify-between pt-[100px] m-auto">
-        <div
-          class="w-[470px] h-[608px] border-solid border-2 border-primary rounded-[70px] flex flex-col justify-between pt-[64px] pb-[48px] pl-[115px] pr-[115px] items-center"
-        >
-          <div class="text-5xl font-semibold">Free</div>
-          <div class="text-xl font-semibold text-primary">1 seat</div>
-          <div class="text-xl font-semibold text-primary">2 projects</div>
-          <div class="text-lg font-medium text-light-gray">
-            <span class="text-[64px] font-bold text-light-gray">0</span>/forever
-          </div>
-          <UIButton text="Start 14 Days Trial" type="primary" size="large" class="lg:h-[76px]" />
-        </div>
-        <div
-          class="w-[470px] h-[608px] border-solid border-primary bg-primary rounded-[70px] flex flex-col justify-between pt-[64px] pb-[48px] pl-[115px] pr-[115px] items-center"
-        >
-          <div class="text-5xl text-white font-semibold">Premium</div>
-          <div class="text-xl font-semibold text-white">Unlimited Seat</div>
-          <div class="text-xl font-semibold text-white">Unlimited project</div>
-          <div class="text-lg font-medium text-white">
-            <span class="text-[64px] font-bold text-white">30</span>/forever
-          </div>
-          <UIButton
-            text="Start 14 Days Trial"
-            type="primary"
-            size="large"
-            class="lg:h-[76px] bg-white text-primary"
-          />
-        </div>
+        <UIPriceCard v-for="text in priceText" :key="text.id" :flag="activeMode" :text="text" />
       </div>
     </UIContainer>
   </section>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import UIContainer from './ui/UIContainer.vue';
 import UIButton from './ui/UIButton.vue';
+import UIPriceCard from './ui/UIPriceCard.vue';
+export default {
+  components: {
+    UIContainer,
+    UIPriceCard,
+  },
+  data() {
+    return {
+      activeMode: false,
+      activeModePremium: !this.activeMode,
+
+      priceText: [
+        {
+          id: 0,
+          title: 'Free',
+          seat: '1 seat',
+          project: '1 project',
+          price: '0',
+          duration: '/forever',
+        },
+        {
+          id: 1,
+          title: 'Premium',
+          seat: 'unlimited Seat',
+          project: 'Unlimited project',
+          price: '30',
+          duration: '/forever',
+        },
+      ],
+    };
+  },
+  methods: {
+    setActiveMode() {
+      this.activeMode = !this.activeMode;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -66,7 +77,7 @@ import UIButton from './ui/UIButton.vue';
   display: none;
 }
 .slider {
-  background: #ccc;
+  background: #fa865f;
   bottom: 0;
   cursor: pointer;
   left: 0;
