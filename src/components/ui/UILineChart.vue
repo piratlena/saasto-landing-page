@@ -36,7 +36,7 @@ export default {
           curve: 'straight',
         },
         title: {
-          text: 'Product Trends by Month',
+          text: 'Sales trend',
           align: 'left',
         },
         grid: {

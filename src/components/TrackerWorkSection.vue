@@ -1,5 +1,5 @@
 <template>
-  <section class="h-[1186px] bg-repeat-round lg:bg-[url(@/assets/tracker-work-section/bg.png)]">
+  <section class="h-[986px] bg-repeat-round lg:bg-[url(@/assets/tracker-work-section/bg.png)]">
     <UIContainer>
       <div class="flex flex-row pl-[150px] pt-[140px]">
         <div class="w-[708px] flex flex-col">
@@ -62,7 +62,7 @@
               </div>
             </div>
 
-            <div class="w-[230px] h-[320px] shadow-lg"><UILineChart /></div>
+            <div class="w-[230px] h-[320px] shadow-lg ml-[40px]"><UILineChart /></div>
           </div>
 
           <div class="w-[388px] h-[444px] shadow-lg p-[20px]">

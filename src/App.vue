@@ -6,6 +6,7 @@
     <FeaturesSection />
     <AnalyticsSection />
     <TrackerWorkSection />
+    <PriceSection />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import CounterDisplay from './components/CounterDisplay.vue';
 import FeaturesSection from './components/FeaturesSection.vue';
 import AnalyticsSection from './components/AnalyticsSection.vue';
 import TrackerWorkSection from './components/TrackerWorkSection.vue';
+import PriceSection from './components/PriceSection.vue';
 </script>
 
 <style scoped></style>
