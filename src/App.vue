@@ -9,6 +9,7 @@
     <PriceSection />
     <PartnersSection />
     <ReviewsSection />
+    <StepSection />
   </main>
 </template>
 
@@ -22,6 +23,7 @@ import TrackerWorkSection from './components/TrackerWorkSection.vue';
 import PriceSection from './components/PriceSection.vue';
 import PartnersSection from './components/PartnersSection.vue';
 import ReviewsSection from './components/ReviewsSection.vue';
+import StepSection from './components/StepSection.vue';
 </script>
 
 <style scoped></style>
