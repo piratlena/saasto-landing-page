@@ -10,6 +10,7 @@
     <PartnersSection />
     <ReviewsSection />
     <StepSection />
+    <TheFooter />
   </main>
 </template>
 
@@ -24,6 +25,7 @@ import PriceSection from './components/PriceSection.vue';
 import PartnersSection from './components/PartnersSection.vue';
 import ReviewsSection from './components/ReviewsSection.vue';
 import StepSection from './components/StepSection.vue';
+import TheFooter from './components/the-footer/TheFooter.vue';
 </script>
 
 <style scoped></style>
