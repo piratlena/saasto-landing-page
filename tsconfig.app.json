@@ -3,7 +3,7 @@
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.ts*"],
   "exclude": ["src/**/__tests__/*", "node_modules", "dist", "lib"],
   "compilerOptions": {
-    "lib": ["dom", "es2015"],
+    "lib": ["dom", "es2016"],
     "outDir": "./lib/cjs/",
     "sourceMap": true,
     "declaration": true,
