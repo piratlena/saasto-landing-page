@@ -1,7 +1,7 @@
 <template>
-  <section class="h-[1186px] bg-background-1 items-center">
-    <UIContainer>
-      <h3 class="text-5xl font-semibold text-center pt-[140px] mb-[25px]">
+  <section class="h-auto bg-background-1 items-center">
+    <UIContainer class="pt-[30px]">
+      <h3 class="text-3xl md:text-5xl font-semibold text-center mb-[25px]">
         Flexible work, Simple Price
       </h3>
       <p class="text-lg text-light-gray mb-[64px] text-center">
@@ -16,7 +16,7 @@
         <div class="text-2xl font-medium">Yearly</div>
       </div>
 
-      <div class="w-[1000px] flex flex-row justify-between pt-[100px] m-auto">
+      <div class="flex flex-col items-center lg:flex-row justify-between pt-[100px]">
         <UIPriceCard v-for="text in priceText" :key="text.id" :flag="activeMode" :text="text" />
       </div>
     </UIContainer>

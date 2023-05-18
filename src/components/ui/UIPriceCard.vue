@@ -1,20 +1,32 @@
 <template>
   <div
-    class="w-[470px] h-[608px] border-solid border-2 border-primary rounded-[70px] flex flex-col justify-between pt-[64px] pb-[48px] pl-[115px] pr-[115px] items-center"
+    class="w-[327px] h-auto pt-[30px] flex flex-col items-center border-solid border-[1px] border-primary rounded-[70px] pt-[30px] mb-[30px] lg:w-[470px] h-[608px] pt-[64px] border-2"
     :class="{ 'bg-primary transition-transform': text.id == flag }"
   >
-    <div class="text-5xl font-semibold" :class="{ 'text-white': text.id == flag }">
+    <div
+      class="text-3xl font-semibold mb-[20px] lg:mb-[40px] text-5xl"
+      :class="{ 'text-white': text.id == flag }"
+    >
       {{ text.title }}
     </div>
-    <div class="text-xl font-semibold text-primary" :class="{ 'text-white': text.id == flag }">
+    <div
+      class="text-xl font-semibold text-primary mb-[20px] lg:mb-[40px]"
+      :class="{ 'text-white': text.id == flag }"
+    >
       {{ text.seat }}
     </div>
-    <div class="text-xl font-semibold text-primary" :class="{ 'text-white': text.id == flag }">
+    <div
+      class="text-xl font-semibold text-primary mb-[20px] lg:mb-[40px]"
+      :class="{ 'text-white': text.id == flag }"
+    >
       {{ text.project }}
     </div>
-    <div class="text-lg font-medium text-light-gray" :class="{ 'text-white': text.id == flag }">
+    <div
+      class="text-lg font-medium text-light-gray mb-[30px] lg:mb-[60px]"
+      :class="{ 'text-white': text.id == flag }"
+    >
       <span
-        class="text-[64px] font-bold text-light-gray"
+        class="text-5xl font-bold text-light-gray lg:text-[64px]"
         :class="{ 'text-white': text.id == flag }"
         >{{ text.price }}</span
       >{{ text.duration }}
@@ -23,7 +35,7 @@
       text="Start 14 Days Trial"
       type="active"
       size="large"
-      class="lg:h-[76px]"
+      class="mb-[30px] lg:h-[76px]"
       :class="{ 'bg-white': text.id == flag, 'text-[#FF553E]': text.id == flag }"
     />
   </div>

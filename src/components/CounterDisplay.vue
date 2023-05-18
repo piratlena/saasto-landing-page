@@ -1,21 +1,21 @@
 <template>
-  <section class="w-[85%] h-[250px] mt-[-100px] rounded-tr-[100px] bg-white relative">
+  <section
+    class="relative w-full bg-white items-center h-auto pt-[94px] mt-[0] lg:w-[85%] mt-[-100px] rounded-tr-[100px]"
+  >
     <UIContainer>
-      <div class="w-[700px] pt-[94px] m-auto">
-        <div class="w-[100%] flex flex-row justify-between justify-items-start">
-          <div class="flex flex-col">
-            <div class="text-[48px] font-bold">15k+</div>
-            <div class="text-[18px] font-normal text-light-gray">Active user</div>
-          </div>
-          <div class="flex flex-col">
-            <div class="text-[48px] font-bold">30k</div>
-            <div class="text-[18px] font-normal text-light-gray">Total Download</div>
-          </div>
+      <div class="flex flex-col justify-center md:flex-row">
+        <div class="flex flex-col w-full h-[174px] md:w-[109px] mr-[180px]">
+          <div class="text-[48px] font-bold text-center">15k+</div>
+          <div class="text-[18px] font-normal text-light-gray text-center">Active user</div>
+        </div>
+        <div class="flex flex-col w-full h-[174px] md:w-[109px] mr-[180px]">
+          <div class="text-[48px] font-bold text-center">30k</div>
+          <div class="text-[18px] font-normal text-light-gray text-center">Total Download</div>
+        </div>
 
-          <div class="flex flex-col justify-start">
-            <div class="text-[48px] font-bold">10k</div>
-            <div class="text-[18px] font-normal text-light-gray">Customer</div>
-          </div>
+        <div class="flex flex-col w-full h-[174px] md:w-[109px]">
+          <div class="text-[48px] font-bold text-center">10k</div>
+          <div class="text-[18px] font-normal text-light-gray text-center">Customer</div>
         </div>
       </div>
     </UIContainer>

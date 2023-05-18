@@ -22,10 +22,10 @@
         ? 'hover border border-dark-1 bg-transparent text-dark-1 hover:border-primary  hover:text-primary'
         : '',
       type === 'active'
-        ? 'bg-white border-2 text-primary border-solid border-primary hover:border-primary  hover:text-orange-1 hover:bg-orange-1 hover:text-white'
+        ? 'bg-white border-[1px] text-primary border-solid border-primary hover:border-primary  hover:text-orange-1 hover:bg-orange-1 hover:text-white'
         : '',
       size === 'small' ? 'h-8 px-4 text-xs' : '',
-      size === 'large' ? 'h-11 px-10 text-base' : '',
+      size === 'large' ? 'h-[76px] px-10 text-base' : '',
     ]"
   >
     {{ text }}
