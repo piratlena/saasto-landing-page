@@ -15,7 +15,7 @@
         />
       </div>
 
-      <div class="items-start w-full pr-[0px] lg:w-[525px] pr-[420px]">
+      <div class="items-start w-full lg:w-[525px]">
         <h3 class="text-3xl font-semibold md:text-5xl mb-[20px]">See Our trusted partners</h3>
         <p class="text-lg text-light-gray mb-[20px]">
           Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera legimu. Me vita de
