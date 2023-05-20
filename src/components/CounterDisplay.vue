@@ -1,9 +1,14 @@
 <template>
   <section
-    class="relative w-full bg-white items-center h-auto pt-[94px] mt-[0] lg:w-[85%] mt-[-100px] rounded-tr-[100px]"
+    class="relative w-full bg-white items-center h-auto pt-[94px] mt-[0] lg:w-[85%] lg:mt-[-100px] rounded-tr-[100px]"
   >
     <UIContainer>
-      <div class="flex flex-col justify-center md:flex-row">
+      <div
+        class="flex flex-col justify-center md:flex-row"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="1500"
+      >
         <div class="flex flex-col w-full h-[174px] md:w-[109px] mr-[180px]">
           <div class="text-[48px] font-bold text-center">15k+</div>
           <div class="text-[18px] font-normal text-light-gray text-center">Active user</div>
