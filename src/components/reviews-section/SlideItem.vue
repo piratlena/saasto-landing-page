@@ -15,7 +15,6 @@
 </template>
 
 <script setup lang="ts">
-import 'swiper/css';
 defineProps({
   image: {
     type: String,

@@ -33,8 +33,8 @@
 </template>
 
 <script setup lang="ts">
-import UIContainer from '../ui/UIContainer.vue';
-import FeaturesCard from './FeaturesCard.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import FeaturesCard from '@/components/features-section/FeaturesCard.vue';
 
 import { featuresContent } from '@/data/featuresCard';
 </script>

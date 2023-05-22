@@ -39,9 +39,9 @@
 </template>
 
 <script setup lang="ts">
-import UIContainer from '../ui/UIContainer.vue';
-import IconLogoVue from '../icons/IconLogo.vue';
-import { footerLinks } from '../../data/footerLinks';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import IconLogoVue from '@/components/icons/IconLogo.vue';
+import { footerLinks } from '@/data/footerLinks';
 </script>
 
 <style lang="scss" scoped></style>

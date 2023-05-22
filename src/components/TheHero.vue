@@ -58,8 +58,8 @@
 </template>
 
 <script setup lang="ts">
-import UIContainer from './ui/UIContainer.vue';
-import UIButton from './ui/UIButton.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import UIButton from '@/components/ui/UIButton.vue';
 import { useBreakpoints } from '@/composables/useBreakpoints';
 
 const breakpoints = useBreakpoints();

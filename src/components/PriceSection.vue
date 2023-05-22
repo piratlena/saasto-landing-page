@@ -39,9 +39,8 @@
 </template>
 
 <script lang="ts">
-import UIContainer from './ui/UIContainer.vue';
-import UIButton from './ui/UIButton.vue';
-import UIPriceCard from './ui/UIPriceCard.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import UIPriceCard from '@/components/ui/UIPriceCard.vue';
 export default {
   components: {
     UIContainer,

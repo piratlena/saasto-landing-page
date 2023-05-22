@@ -39,11 +39,10 @@
 
 <script setup>
 import { ref } from 'vue';
-import UIContainer from '../ui/UIContainer.vue';
-import SlideItem from './SlideItem.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import SlideItem from '@/components/reviews-section/SlideItem.vue';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { useSwiper } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

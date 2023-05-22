@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import UIContainer from './ui/UIContainer.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
 </script>
 
 <style lang="scss" scoped></style>

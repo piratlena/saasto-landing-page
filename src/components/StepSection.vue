@@ -51,10 +51,9 @@
 </template>
 
 <script setup>
-import UIContainer from './ui/UIContainer.vue';
-import UIButton from './ui/UIButton.vue';
-import LogoAppStore from '../components/icons/LogoAppStore.vue';
-import LogoGoogleStore from '../components/icons/LogoGoogleStore.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import LogoAppStore from '@/components/icons/LogoAppStore.vue';
+import LogoGoogleStore from '@/components/icons/LogoGoogleStore.vue';
 import { useBreakpoints } from '@/composables/useBreakpoints';
 
 const breakpoints = useBreakpoints();

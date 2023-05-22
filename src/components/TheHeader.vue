@@ -100,9 +100,9 @@
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue';
 import { useBreakpoints } from '@/composables/useBreakpoints';
-import UIContainer from './ui/UIContainer.vue';
-import IconLogo from './icons/IconLogo.vue';
-import UIButton from './ui/UIButton.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import IconLogo from '@/components/icons/IconLogo.vue';
+import UIButton from '@/components/ui/UIButton.vue';
 
 const open = ref(false);
 const mobileNavBtn = ref<HTMLElement | null>(null);

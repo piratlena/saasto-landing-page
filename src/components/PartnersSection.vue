@@ -33,8 +33,7 @@
 </template>
 
 <script setup>
-import UIContainer from './ui/UIContainer.vue';
-import UIButton from './ui/UIButton.vue';
+import UIButton from '@/components/ui/UIButton.vue';
 </script>
 
 <style lang="scss" scoped></style>

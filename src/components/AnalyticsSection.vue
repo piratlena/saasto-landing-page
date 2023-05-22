@@ -59,10 +59,10 @@
 </template>
 
 <script setup lang="ts">
-import UIContainer from './ui/UIContainer.vue';
-import IconClock from './icons/analytics-section/IconClock.vue';
-import IconContent from './icons/analytics-section/IconContent.vue';
-import IconDone from './icons/analytics-section/IconDone.vue';
+import UIContainer from '@/components/ui/UIContainer.vue';
+import IconClock from '@/components/icons/analytics-section/IconClock.vue';
+import IconContent from '@/components/icons/analytics-section/IconContent.vue';
+import IconDone from '@/components/icons/analytics-section/IconDone.vue';
 </script>
 
 <style lang="scss" scoped></style>

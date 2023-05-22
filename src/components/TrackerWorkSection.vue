@@ -115,11 +115,11 @@
 
 <script setup lang="ts">
 import UIContainer from './ui/UIContainer.vue';
-import IconClock from '../components/icons/tracker-section/IconClock.vue';
-import IconSandClock from '../components/icons/tracker-section/IconSandClock.vue';
-import IconWallet from '../components/icons/tracker-section/IconWallet.vue';
-import UIRadialChartVue from './ui/UIRadialChart.vue';
-import UILineChart from './ui/UILineChart.vue';
+import IconClock from '@/components/icons/tracker-section/IconClock.vue';
+import IconSandClock from '@/components/icons/tracker-section/IconSandClock.vue';
+import IconWallet from '@/components/icons/tracker-section/IconWallet.vue';
+import UIRadialChartVue from '@/components/ui/UIRadialChart.vue';
+import UILineChart from '@/components/ui/UILineChart.vue';
 </script>
 
 <style lang="scss" scoped></style>
