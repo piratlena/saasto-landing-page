@@ -2,10 +2,20 @@
   <section class="bg-background-1 lg:h-auto">
     <UIContainer>
       <div class="flex flex-col lg:flex-row justify-between">
-        <div class="lg:w-[720px] h-auto">
+        <div
+          class="lg:w-[720px] h-auto"
+          data-aos="fade-down-right"
+          data-aos-duration="700"
+          data-aos-delay="1700"
+        >
           <img class="w-full" src="../assets/analystics-section/mobile-group.png" alt="" />
         </div>
-        <div class="p-[20px] flex flex-col sm:w-[600px] md:w-[700px] lg:pt-[188px]">
+        <div
+          class="p-[20px] flex flex-col sm:w-[600px] md:w-[700px] lg:pt-[188px]"
+          data-aos="fade-down-left"
+          data-aos-duration="700"
+          data-aos-delay="1200"
+        >
           <div class="text-xl font-semibold sm:text-5xl mb-[20px]">
             Analytics & Reporting Brackdown
           </div>

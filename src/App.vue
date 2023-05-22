@@ -25,7 +25,7 @@ import AnalyticsSection from './components/AnalyticsSection.vue';
 import TrackerWorkSection from './components/TrackerWorkSection.vue';
 import PriceSection from './components/PriceSection.vue';
 import PartnersSection from './components/PartnersSection.vue';
-import ReviewsSection from './components/ReviewsSection.vue';
+import ReviewsSection from './components/reviews-section/ReviewsSection.vue';
 import StepSection from './components/StepSection.vue';
 import TheFooter from './components/the-footer/TheFooter.vue';
 

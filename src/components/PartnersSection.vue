@@ -1,6 +1,6 @@
 <template>
   <section
-    class="h-auto bg-background-2 pl-[20px] pr-[20px] pt-[50px] lg:pt-[126px] pl-[76px] pr-[76px]"
+    class="h-auto bg-background-2 pl-[20px] pr-[20px] pt-[50px] lg:pt-[126px] lg:pl-[76px] lg:pr-[76px]"
   >
     <div class="w-full flex flex-col lg:flex-row">
       <div class="grid grid-cols-2 mb-[30px] lg:w-[50%]">
@@ -15,7 +15,12 @@
         />
       </div>
 
-      <div class="items-start w-full lg:w-[525px]">
+      <div
+        class="items-start w-full lg:w-[525px]"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="1900"
+      >
         <h3 class="text-3xl font-semibold md:text-5xl mb-[20px]">See Our trusted partners</h3>
         <p class="text-lg text-light-gray mb-[20px]">
           Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera legimu. Me vita de

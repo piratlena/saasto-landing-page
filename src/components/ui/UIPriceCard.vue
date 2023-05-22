@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[327px] h-auto pt-[30px] flex flex-col items-center border-solid border-[1px] border-primary rounded-[70px] pt-[30px] mb-[30px] lg:w-[470px] h-[608px] pt-[64px] border-2"
+    class="w-[327px] h-auto pt-[30px] flex flex-col items-center border-solid border-[1px] border-primary rounded-[70px] mb-[30px] transition-all duration-1000 lg:w-[470px] lg:h-[608px] lg:pt-[64px] lg:border-2"
     :class="{ 'bg-primary transition-transform': text.id == flag }"
   >
     <div

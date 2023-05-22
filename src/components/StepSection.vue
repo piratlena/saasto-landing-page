@@ -2,7 +2,12 @@
   <section class="h-auto bg-background-1 relative lg:pt-[150px]">
     <UIContainer class="pt-[48px]">
       <div class="grid grid-cols-2 items-start lg:items-center">
-        <div class="items-start mr-[15px] lg:w-[529px]">
+        <div
+          class="items-start mr-[15px] lg:w-[529px]"
+          data-aos="fade-right"
+          data-aos-duration="700"
+          data-aos-delay="1900"
+        >
           <h3 class="text-2xl font-semibold lg:text-5xl mb-[25px]">Get it now for free</h3>
           <p class="text-lg text-light-gray mb-[30px] lg:mb-[64px]">
             We are offering free debit cards once you sing up and order a card. we wont chargeyou
@@ -24,7 +29,12 @@
             </button>
           </div>
         </div>
-        <div class="hidden lg:block">
+        <div
+          class="hidden lg:block"
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="1900"
+        >
           <img src="../assets/step-section/mobile-screen.png" alt="mobile" />
         </div>
       </div>

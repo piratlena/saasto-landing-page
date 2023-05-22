@@ -1,10 +1,13 @@
 <template>
-  <footer class="py-[126px]">
+  <footer class="py-[80px] md:py-[126px]">
     <UIContainer>
-      <div class="flex flex-row justify-between">
-        <IconLogoVue />
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="w-[134px]">
+          <IconLogoVue class="w-[134px]" />
+        </div>
+
         <div
-          class="justify-items-between inline-grid w-[70%] grid-cols-[repeat(2,auto)] gap-y-14 text-xs sm:grid-cols-[repeat(3,auto)] lg:grid-cols-[[repeat(5,auto)]]"
+          class="justify-items-between inline-grid w-[70%] grid-cols-[repeat(2,auto)] gap-y-14 text-xs md:grid-cols-[repeat(3,auto)] lg:grid-cols-[[repeat(5,auto)]]"
         >
           <div v-for="linksGroup in footerLinks" :key="linksGroup.title">
             <h3 class="upercase text-lg font-semibold">{{ linksGroup.title }}</h3>
@@ -24,8 +27,8 @@
         </div>
       </div>
       <div class="w-full h-[1px] bg-dark-2 mt-[20px]"></div>
-      <div class="w-full flex flex-row justify-between mt-[20px]">
-        <div>
+      <div class="w-full flex flex-col md:flex-row justify-between mt-[20px]">
+        <div class="flex flex-col md:flex-row">
           <span class="mr-[30px] text-dark-2">Terms & condition</span>
           <span class="text-dark-2">Privacy policy</span>
         </div>

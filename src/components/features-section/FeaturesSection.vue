@@ -1,7 +1,12 @@
 <template>
   <section class="relative items-center bg-white z-40 lg:h-[700px]">
     <UIContainer>
-      <div class="m-auto sm:w-[600px] md:pt-[200px] lg:w-[784px]">
+      <div
+        class="m-auto sm:w-[600px] md:pt-[200px] lg:w-[784px]"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="1500"
+      >
         <h2 class="text-3xl font-bold mb-[20px] text-center md:text-[48px] md:leading-12">
           Some Excellent Features For You
         </h2>

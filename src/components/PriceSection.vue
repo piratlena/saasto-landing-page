@@ -1,10 +1,20 @@
 <template>
   <section class="h-auto bg-background-1 items-center">
-    <UIContainer class="pt-[30px]">
-      <h3 class="text-3xl md:text-5xl font-semibold text-center mb-[25px]">
+    <UIContainer class="pt-[30px] lg:py-[40px]">
+      <h3
+        class="text-3xl md:text-5xl font-semibold text-center mb-[25px]"
+        data-aos="fade-right"
+        data-aos-duration="700"
+        data-aos-delay="1900"
+      >
         Flexible work, Simple Price
       </h3>
-      <p class="text-lg text-light-gray mb-[64px] text-center">
+      <p
+        class="text-lg text-light-gray mb-[64px] text-center"
+        data-aos="fade-left"
+        data-aos-duration="700"
+        data-aos-delay="1900"
+      >
         Growth your business with using us
       </p>
       <div class="w-[297px] flex flex-row justify-between m-auto">
@@ -16,7 +26,12 @@
         <div class="text-2xl font-medium">Yearly</div>
       </div>
 
-      <div class="flex flex-col items-center lg:flex-row justify-between pt-[100px]">
+      <div
+        class="flex flex-col items-center lg:flex-row justify-between pt-[100px]"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="1900"
+      >
         <UIPriceCard v-for="text in priceText" :key="text.id" :flag="activeMode" :text="text" />
       </div>
     </UIContainer>

@@ -3,17 +3,32 @@
     class="h-auto bg-background-2 pb-[30px] lg:bg-repeat-roundbg-[url(@/assets/tracker-work-section/bg.png)]"
   >
     <UIContainer>
-      <div class="flex flex-col pt-[80px] pl-[0px] lg:flex-row pt-[140px]">
+      <div class="flex flex-col pt-[80px] pl-[0px] lg:flex-row lg:pt-[140px]">
         <div class="lg:w-[708px] flex flex-col">
-          <div class="text-3xl font-semibold mb-[20px] md:text-5xl">
+          <div
+            class="text-3xl font-semibold mb-[20px] md:text-5xl"
+            data-aos="fade-right"
+            data-aos-duration="700"
+            data-aos-delay="1700"
+          >
             How our Tracker work for you
           </div>
-          <p class="text-lg text-light-gray mb-[64px]">
+          <p
+            class="text-lg text-light-gray mb-[64px]"
+            data-aos="fade-right"
+            data-aos-duration="700"
+            data-aos-delay="1800"
+          >
             An enim nullam tempor sapien gravida donec enim ipsum porta justo congue magna at
             pretium purus pretium ligula
           </p>
 
-          <div class="flex flex-row">
+          <div
+            class="flex flex-row"
+            data-aos="zoom-in-up"
+            data-aos-duration="700"
+            data-aos-delay="1800"
+          >
             <IconClock class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
               <div class="text-lg font-semibold">Time Tracking</div>
@@ -23,7 +38,12 @@
             </div>
           </div>
 
-          <div class="flex flex-row lg:ml-[60px]">
+          <div
+            class="flex flex-row lg:ml-[60px]"
+            data-aos="zoom-in-up"
+            data-aos-duration="700"
+            data-aos-delay="1800"
+          >
             <IconSandClock class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
               <div class="text-lg font-semibold">Expenses</div>
@@ -33,7 +53,12 @@
             </div>
           </div>
 
-          <div class="flex flex-row">
+          <div
+            class="flex flex-row"
+            data-aos="zoom-in-up"
+            data-aos-duration="700"
+            data-aos-delay="1800"
+          >
             <IconWallet class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
               <div class="text-lg font-semibold">Budget controlling</div>
@@ -45,7 +70,12 @@
         </div>
 
         <div class="flex flex-col pt-[30px] items-center md:grid grid-cols-2 pt-[80px]">
-          <div class="flex flex-col">
+          <div
+            class="flex flex-col"
+            data-aos="zoom-out-down"
+            data-aos-duration="700"
+            data-aos-delay="1800"
+          >
             <div
               class="w-[266px] h-[270px] bg-white rounded-xl shadow-lg flex flex-col justify-start p-[20px] mb-[40px]"
             >
@@ -66,13 +96,13 @@
               </div>
             </div>
 
-            <div class="hidden md:visible w-[230px] h-[320px] shadow-lg ml-[40px]">
+            <div class="hidden md:block w-[230px] h-[320px] shadow-lg ml-[40px]">
               <UILineChart />
             </div>
           </div>
 
           <div
-            class="shadow-lg p-[20px] bg-white rounded-xl w-[300px] h-auto md:w-[388px] h-[444px]"
+            class="shadow-lg p-[20px] bg-white rounded-xl w-[300px] h-auto md:w-[388px] md:h-[444px]"
           >
             <p class="text-dark-blue text-xl font-bold">Global Statistics</p>
             <UIRadialChartVue />

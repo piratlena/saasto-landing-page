@@ -38,15 +38,15 @@
           @click="open = !open"
         >
           <span
-            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%+4px)] bg-dark-1 transition-transform"
+            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%+4px)] bg-primary transition-transform"
             :class="open ? '-translate-y-0 rotate-45' : ''"
           ></span>
           <span
-            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-1/2 bg-dark-1 transition-transform"
+            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-1/2 bg-primary transition-transform"
             :class="open ? 'scale-x-0' : ''"
           ></span>
           <span
-            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%-4px)] bg-dark-1 transition-transform"
+            class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%-4px)] bg-primary transition-transform"
             :class="open ? '-translate-y-0 -rotate-45' : ''"
           ></span>
         </div>
