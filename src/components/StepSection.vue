@@ -1,5 +1,5 @@
 <template>
-  <section class="h-auto bg-background-1 relative lg:pt-[150px]">
+  <section class="h-auto bg-background-1 pb-[20px] relative lg:pt-[150px] lg:pb-[0px]">
     <UIContainer class="pt-[48px]">
       <div class="grid grid-cols-2 items-start lg:items-center">
         <div
@@ -33,17 +33,17 @@
           class="hidden lg:block"
           data-aos="fade-left"
           data-aos-duration="700"
-          data-aos-delay="1900"
+          data-aos-delay="1000"
         >
           <img src="../assets/step-section/mobile-screen.png" alt="mobile" />
         </div>
       </div>
     </UIContainer>
-    <div class="w-[100%] flex flex-row justify-between">
-      <div class="invisible lg:visible translate-y-[-750px]">
+    <div class="absolute w-[100%] flex flex-row justify-between translate-y-[-750px]">
+      <div class="invisible lg:visible">
         <img src="../assets/step-section/left-hand.png" alt="left-hand" />
       </div>
-      <div class="translate-y-[-200px] lg:translate-y-[-300px]">
+      <div class="translate-y-[450px] md:translate-y-[450px]">
         <img src="../assets/step-section/right-hand.png" alt="right-hand" />
       </div>
     </div>

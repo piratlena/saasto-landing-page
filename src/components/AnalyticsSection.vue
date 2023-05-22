@@ -6,7 +6,7 @@
           class="lg:w-[720px] h-auto"
           data-aos="fade-down-right"
           data-aos-duration="700"
-          data-aos-delay="1700"
+          data-aos-delay="500"
         >
           <img class="w-full" src="../assets/analystics-section/mobile-group.png" alt="" />
         </div>
@@ -14,7 +14,7 @@
           class="p-[20px] flex flex-col sm:w-[600px] md:w-[700px] lg:pt-[188px]"
           data-aos="fade-down-left"
           data-aos-duration="700"
-          data-aos-delay="1200"
+          data-aos-delay="500"
         >
           <div class="text-xl font-semibold sm:text-5xl mb-[20px]">
             Analytics & Reporting Brackdown

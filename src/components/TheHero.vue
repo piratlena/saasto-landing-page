@@ -47,10 +47,10 @@
       </div>
     </UIContainer>
     <div class="hidden lg:flex justify-between mt-[-200px] relative z-0">
-      <div data-aos="fade-down-right" data-aos-duration="700" data-aos-delay="1200">
+      <div data-aos="fade-down-right" data-aos-duration="700">
         <img src="../assets/hero/hero-mobile-1.png" alt="mobile" class="z-0" />
       </div>
-      <div data-aos="fade-down-left" data-aos-duration="700" data-aos-delay="1500">
+      <div data-aos="fade-down-left" data-aos-duration="700">
         <img src="../assets/hero/hero-mobile-2.png" alt="mobile" class="z-0" />
       </div>
     </div>

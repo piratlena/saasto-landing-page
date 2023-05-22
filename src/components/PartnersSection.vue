@@ -19,7 +19,7 @@
         class="items-start w-full lg:w-[525px]"
         data-aos="fade-up"
         data-aos-duration="700"
-        data-aos-delay="1900"
+        data-aos-delay="800"
       >
         <h3 class="text-3xl font-semibold md:text-5xl mb-[20px]">See Our trusted partners</h3>
         <p class="text-lg text-light-gray mb-[20px]">

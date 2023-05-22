@@ -8,16 +8,16 @@
           <div
             class="text-3xl font-semibold mb-[20px] md:text-5xl"
             data-aos="fade-right"
-            data-aos-duration="700"
-            data-aos-delay="1700"
+            data-aos-duration="300"
+            data-aos-delay="200"
           >
             How our Tracker work for you
           </div>
           <p
             class="text-lg text-light-gray mb-[64px]"
             data-aos="fade-right"
-            data-aos-duration="700"
-            data-aos-delay="1800"
+            data-aos-duration="500"
+            data-aos-delay="300"
           >
             An enim nullam tempor sapien gravida donec enim ipsum porta justo congue magna at
             pretium purus pretium ligula
@@ -27,7 +27,7 @@
             class="flex flex-row"
             data-aos="zoom-in-up"
             data-aos-duration="700"
-            data-aos-delay="1800"
+            data-aos-delay="1400"
           >
             <IconClock class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
@@ -42,7 +42,7 @@
             class="flex flex-row lg:ml-[60px]"
             data-aos="zoom-in-up"
             data-aos-duration="700"
-            data-aos-delay="1800"
+            data-aos-delay="1200"
           >
             <IconSandClock class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
@@ -57,7 +57,7 @@
             class="flex flex-row"
             data-aos="zoom-in-up"
             data-aos-duration="700"
-            data-aos-delay="1800"
+            data-aos-delay="1000"
           >
             <IconWallet class="mr-[24px] mb-[48px]" />
             <div class="w-[365px]">
@@ -74,7 +74,7 @@
             class="flex flex-col"
             data-aos="zoom-out-down"
             data-aos-duration="700"
-            data-aos-delay="1800"
+            data-aos-delay="1000"
           >
             <div
               class="w-[266px] h-[270px] bg-white rounded-xl shadow-lg flex flex-col justify-start p-[20px] mb-[40px]"

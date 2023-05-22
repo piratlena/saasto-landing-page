@@ -7,7 +7,6 @@
         class="flex flex-col justify-center md:flex-row"
         data-aos="fade-up"
         data-aos-duration="700"
-        data-aos-delay="1500"
       >
         <div class="flex flex-col w-full h-[174px] md:w-[109px] mr-[180px]">
           <div class="text-[48px] font-bold text-center">15k+</div>

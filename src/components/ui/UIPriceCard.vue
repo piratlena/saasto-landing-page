@@ -4,7 +4,7 @@
     :class="{ 'bg-primary transition-transform': text.id == flag }"
   >
     <div
-      class="text-3xl font-semibold mb-[20px] lg:mb-[40px] text-5xl"
+      class="text-3xl font-semibold mb-[20px] lg:mb-[40px] lg:text-5xl"
       :class="{ 'text-white': text.id == flag }"
     >
       {{ text.title }}

@@ -30,7 +30,7 @@
         class="flex flex-col items-center lg:flex-row justify-between pt-[100px]"
         data-aos="fade-up"
         data-aos-duration="700"
-        data-aos-delay="1900"
+        data-aos-delay="1200"
       >
         <UIPriceCard v-for="text in priceText" :key="text.id" :flag="activeMode" :text="text" />
       </div>
@@ -54,7 +54,7 @@ export default {
       priceText: [
         {
           id: 0,
-          title: 'Free',
+          title: 'Monthly',
           seat: '1 seat',
           project: '1 project',
           price: '0',
@@ -62,7 +62,7 @@ export default {
         },
         {
           id: 1,
-          title: 'Premium',
+          title: 'Yearly',
           seat: 'unlimited Seat',
           project: 'Unlimited project',
           price: '30',
