@@ -38,7 +38,7 @@
           data-aos-duration="700"
         />
       </div>
-      <div class="lg:invisible xxs:invisible sm:visible">
+      <div class="hidden lg:hidden xxs:hidden sm:block">
         <img
           src="../assets/hero/hero-clipboard.png"
           alt="clipboard"

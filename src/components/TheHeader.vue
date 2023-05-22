@@ -62,7 +62,7 @@
           <nav
             v-if="open"
             ref="mobileNav"
-            class="fixed top-4 right-2 z-20 rounded bg-white shadow-lg lg:hidden p-[25px]"
+            class="fixed right-2 top-4 z-20 rounded bg-white p-4 shadow-lg lg:hidden"
           >
             <div class="flex justify-between">
               <ul class="flex w-[150px] flex-col items-start space-y-4">
