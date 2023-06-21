@@ -52,12 +52,12 @@
         </div>
 
         <Transition
-          enter-from-class="translate-x-full"
+          enter-from-class="translate-x-[180px]"
           enter-active-class="transition ease-out duration-300"
           enter-to-class="translate-x-0"
           leave-from-class="translate-x-0"
           leave-active-class="transition ease-in duration-300"
-          leave-to-class="translate-x-full"
+          leave-to-class="translate-x-[180px]"
         >
           <nav
             v-if="open"
@@ -71,24 +71,23 @@
                 <li class="flex cursor pointer space-x-2"><a href="#">Pricing</a></li>
                 <li class="flex cursor pointer space-x-2"><a href="#">Contacts</a></li>
               </ul>
-
-              <div
-                class="relative h-4 w-8 flex flex-col justify-between cursor-pointer bg-transparent lg:hidden"
-                @click="open = !open"
-              >
-                <span
-                  class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%+4px)] bg-dark-1 transition-transform"
-                  :class="open ? 'translate-y-0 rotate-45' : ''"
-                ></span>
-                <span
-                  class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-1/2 bg-dark-1 transition-transform"
-                  :class="open ? 'scale-x-0' : ''"
-                ></span>
-                <span
-                  class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%-4px)] bg-dark-1 transition-transform"
-                  :class="open ? 'translate-y-0 -rotate-45' : ''"
-                ></span>
-              </div>
+            </div>
+            <div
+              class="relative h-4 w-4 flex flex-col justify-between cursor-pointer bg-transparent md:hidden"
+              @click="open = !open"
+            >
+              <span
+                class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%+4px)] bg-dark-1 transition-transform"
+                :class="open ? 'translate-y-0 rotate-45' : ''"
+              ></span>
+              <span
+                class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-1/2 bg-dark-1 transition-transform"
+                :class="open ? 'scale-x-0' : ''"
+              ></span>
+              <span
+                class="absolute left-0 top-1/2 h-[1px] w-full -translate-y-[calc(50%-4px)] bg-dark-1 transition-transform"
+                :class="open ? 'translate-y-0 -rotate-45' : ''"
+              ></span>
             </div>
           </nav>
         </Transition>

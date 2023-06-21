@@ -1,6 +1,7 @@
 <template>
   <main>
     <TheHeader />
+
     <TheHero />
     <CounterDisplay />
     <FeaturesSection />
@@ -28,6 +29,7 @@ import PartnersSection from '@/components/PartnersSection.vue';
 import ReviewsSection from '@/components/reviews-section/ReviewsSection.vue';
 import StepSection from '@/components/StepSection.vue';
 import TheFooter from '@/components/the-footer/TheFooter.vue';
+import UIBtnScroll from '@/components/ui/UIBtnScroll.vue';
 
 onMounted(() => {
   AOS.init({
