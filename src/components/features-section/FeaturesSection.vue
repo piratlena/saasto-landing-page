@@ -1,5 +1,5 @@
 <template>
-  <section class="relative items-center bg-white z-40 lg:h-[700px]">
+  <section class="relative items-center bg-white lg:h-[700px]">
     <UIContainer>
       <div
         class="m-auto sm:w-[600px] md:pt-[200px] lg:w-[784px]"

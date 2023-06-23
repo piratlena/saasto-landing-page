@@ -3,6 +3,7 @@
     <TheHeader />
 
     <TheHero />
+
     <CounterDisplay />
     <FeaturesSection />
     <AnalyticsSection />
@@ -11,6 +12,7 @@
     <PartnersSection />
     <ReviewsSection />
     <StepSection />
+    <UIBtnScroll />
     <TheFooter />
   </main>
 </template>
